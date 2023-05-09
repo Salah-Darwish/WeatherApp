@@ -4,15 +4,25 @@ export default {
   ...commonEn.en,
   errors: {
     error: "Error!",
+    generalError: "An error has occurred",
     saveSettings: "An error has occurred while saving settings.",
   },
+  weather: {
+    yourLocation: "Your Location",
+    today: "Today",
+    dailyTitle: "Next Week",
+    visibility: "Visibility",
+    feelsLike: "Feels Like",
+    humidity: "Humidity",
+    windSpeed: "Wind Speed",
+    km: "km",
+    kmh: "km/h",
+    mph: "m/h",
+  },
   home: {
-    title: "Home",
-    notifications: {
-      zero: "You have no notifications.",
-      one: "You have one notification.",
-      other: "You have %{count} notifications.",
-    },
+    title: "Location",
+    permissionError: "Please allow the app to use Your current location",
+    openSettings: "Open Settings",
   },
   settings: {
     title: "Settings",

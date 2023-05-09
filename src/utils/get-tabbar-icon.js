@@ -1,7 +1,7 @@
 const getTabBarIcon = (route, focused) => {
   let iconName;
   if (route.name == "home") {
-    iconName = focused ? "home" : "home-outline";
+    iconName = focused ? "location" : "location-outline";
   } else if (route.name == "Settings") {
     iconName = focused ? "settings" : "settings-outline";
   }

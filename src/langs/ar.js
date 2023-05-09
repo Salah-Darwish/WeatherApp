@@ -4,15 +4,25 @@ export default {
   ...commonAr.ar,
   errors: {
     error: "خطأ",
+    generalError: "لقد حدث خطأ",
     saveSettings: "حدث خطأ أثناء حفظ الإعدادات.",
   },
+  weather: {
+    yourLocation: "موقعك الحالى",
+    today :"اليوم",
+    dailyTitle:"الاسبوع القادم",
+    visibility: "الرؤية",
+        feelsLike: "الشعور",
+        humidity: "الرطوبة",
+        windSpeed: "سرعة الريح",
+        km: "كم",
+        kmh: "كم/س",
+        mph: "ميل/س"
+  },
   home: {
-    title: "الرئيسية",
-    notifications: {
-      zero: "لا توجد لديك اشعارات.",
-      one: "لديك اشعار واحد.",
-      other: "لديك %{count} اشعارات.",
-    },
+    title: "موقعك",
+    permissionError: "يرجي السماح للتطبيق باستخدام موقعك ",
+    openSettings: "افتح الاعدادات",
   },
   settings: {
     title: "الاعدادات",

@@ -1,9 +1,11 @@
 import { Navigator } from "./config";
-import { SettingsContext, SettingsProvider } from "./contexts";
+import { LocationProvider, SettingsProvider } from "./contexts";
 export default function App() {
   return (
     <SettingsProvider>
-      <Navigator />
+      <LocationProvider>
+        <Navigator />
+      </LocationProvider>
     </SettingsProvider>
   );
 }
